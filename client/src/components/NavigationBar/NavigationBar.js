@@ -1,7 +1,12 @@
 import React from 'react';
+import NavItem from './NavItem';
 
 const NavigationBar = () => {
-  return <div>NavigationBar</div>;
+  return (
+    <>
+      <NavItem></NavItem>
+    </>
+  );
 };
 
 export default NavigationBar;

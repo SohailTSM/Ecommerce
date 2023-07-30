@@ -1,14 +1,15 @@
-import React from 'react'
-import NavigationBar from './../components/NavigationBar'
-import { Outlet } from 'react-router-dom'
+import React from 'react';
+import NavigationBar from './../components/NavigationBar/NavigationBar';
+import { Outlet } from 'react-router-dom';
 
 const Root = () => {
   return (
     <>
-        <NavigationBar />
-        <Outlet />
+      <NavigationBar />
+      
+      <Outlet />
     </>
-  )
-}
+  );
+};
 
-export default Root
+export default Root;
