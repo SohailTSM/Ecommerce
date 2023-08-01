@@ -1,9 +1,8 @@
-import React from 'react'
+// @ts-ignore
+import classes from './NavigationBar.module.css';
 
 const NavTitle = () => {
-  return (
-    <div>NavTitle</div>
-  )
-}
+  return <div className={classes['nav-title']}>XAMAZON.in</div>;
+};
 
-export default NavTitle
+export default NavTitle;

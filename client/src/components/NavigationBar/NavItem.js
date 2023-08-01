@@ -1,7 +1,8 @@
-import React from 'react';
+// @ts-ignore
+import classes from './NavigationBar.module.css';
 
-const NavItem = () => {
-  return <div>NavItem </div>;
+const NavItem = (props) => {
+  return <div className={classes['nav-item']}>{props.title}</div>;
 };
 
 export default NavItem;
