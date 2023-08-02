@@ -12,10 +12,10 @@ const NavigationBar = () => {
         <NavTitle></NavTitle>
         <NavSearch></NavSearch>
         <section>
-          <NavItem id="Home" title='Home'></NavItem>
-          <NavItem id="Cart" title='Cart'></NavItem>
-          <NavItem id="Orders" title='Orders'></NavItem>
-          <NavItem id="Profile" title='Profile'></NavItem>
+          <NavItem id='Home' title='Home' path=''></NavItem>
+          <NavItem id='Cart' title='Cart' path='cart'></NavItem>
+          <NavItem id='Orders' title='Orders' path='orders'></NavItem>
+          <NavItem id='Profile' title='Profile' path='profile'></NavItem>
         </section>
       </nav>
     </>
