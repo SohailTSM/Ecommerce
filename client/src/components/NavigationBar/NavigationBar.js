@@ -15,6 +15,7 @@ const NavigationBar = () => {
           <NavItem id="Home" title='Home'></NavItem>
           <NavItem id="Cart" title='Cart'></NavItem>
           <NavItem id="Orders" title='Orders'></NavItem>
+          <NavItem id="Profile" title='Profile'></NavItem>
         </section>
       </nav>
     </>

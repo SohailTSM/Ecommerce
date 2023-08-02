@@ -7,7 +7,7 @@ const NavSearch = () => {
   return (
     <div className={classes['nav-search']}>
       <form action=''>
-        <input type='text' />
+        <input type='text' className={classes.input}/>
         <button>
           <img src={searchSVG} alt='' />
         </button>
