@@ -47,8 +47,8 @@
 }
 
 .nav-search:focus-within {
-  border: 0.1rem solid #febd69;
-  border-radius: 0.4rem;
+  border: 0.2rem solid #f3a847;
+  border-radius: 0.5rem 0.6rem 0.6rem 0.5rem;
 }
 
 .nav-search form {
