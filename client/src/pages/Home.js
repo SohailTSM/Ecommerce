@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import CategoryCard from '../components/Home/CategoryCard';
 
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+const Home = () => (
+  <div>
+    <CategoryCard title='Clothings' productList={['a', 'b']}></CategoryCard>
+    {/* <CategoryCard title='Clothings'></CategoryCard> */}
+  </div>
+);
 
-export default Home
+export default Home;
